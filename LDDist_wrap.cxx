@@ -439,7 +439,7 @@ _SWIG_MakePtr(CPerlObj *pPerl, SV *sv, void *ptr, swig_type_info *t, int flags)
 
 #endif
 
-typedef XS(SwigPerlWrapper);
+typedef XSPROTO(SwigPerlWrapper);
 typedef SwigPerlWrapper *SwigPerlWrapperPtr;
 
 /* Structure for command table */
